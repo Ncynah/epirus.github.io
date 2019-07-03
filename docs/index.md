@@ -21,7 +21,7 @@ This is coupled with its integrated smart contract registry which provides unriv
 into the behaviour of your blockchain applications, and a RESTful API to facilitate ad-hoc 
 reporting of your data.
 
-It additionally supports both public and private permissioned blockchains such as the 
+Additionally, it supports both public and private permissioned blockchains such as the 
 Ethereum networks and [Quorum](https://github.com/jpmorganchase/quorum) by J.P. Morgan.
 
 The [Features](features.md) section provides a more in-depth overview of Epirus.
