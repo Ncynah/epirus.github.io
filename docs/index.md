@@ -1,6 +1,6 @@
 # Overview
 
-The Epirus blockchain explorer and smart contract registry is the go-to platform for both
+The Epirus blockchain explorer and smart contract registry is the go-to platform for 
 business and technical users for working with blockchain networks.
 
 <iframe src="https://player.vimeo.com/video/333204985" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -13,12 +13,12 @@ It provides a rich interface for interpreting data on your ledger, with detailed
 - Blocks
 
 The flexible user experience provides search, filtering and sorting capabilities, allowing users 
-to easily find the data they require.
+to easily find the data they need.
 
 ![Epirus screenshot](img/contract_details.png)
 
-This is coupled with its integrated smart contract registry which provides unrivalled insights 
-into the behaviour of your blockchain applications, and a RESTful API to facilitate ad-hoc 
+This is coupled with an integrated smart contract registry which provides unrivalled insights 
+into the behaviour of your blockchain applications. It also has a RESTful API to facilitate ad-hoc 
 reporting of your data.
 
 Additionally, it supports both public and private permissioned blockchains such as the 

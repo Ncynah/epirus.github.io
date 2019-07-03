@@ -1,15 +1,15 @@
 # Features
 
-Epirus provides an intuitivie user experieince, driven by the menu on the left-hand side of the screen. Clicking on the relevent menu item will take you to the associated page.
+Epirus provides an intuitive user experience, driven by the menu on the left-hand side of the screen. Clicking on the relevent menu item will take you to the associated page.
 
 ## Tokens
 
-The tokens view provides a view of all tokens deployed in the network, with separate labels for 
-fungible or non-fungible tokens following the [ERC20](http://eips.ethereum.org/EIPS/eip-20) and [ERC721](http://eips.ethereum.org/EIPS/eip-721) Ethereum standards respectively.
+The tokens view provides a view of all tokens deployed in the network. Separate labels are given to
+fungible or non-fungible tokens,  following the [ERC20](http://eips.ethereum.org/EIPS/eip-20) and [ERC721](http://eips.ethereum.org/EIPS/eip-721) Ethereum standards respectively.
 
 ![Tokens view](img/tokens.png)
 
-If we click on one of our tokens, we get more information about it (as in the Contracts view), including details of all events that have taken place such as token transfers.
+When you click on one of your tokens, you get more information about it (as in the Contracts view). This includes details of all events that have taken place,  such as token transfers.
 
 ## Contracts
 
@@ -17,13 +17,13 @@ The contracts view displays all contracts that have been deployed to your networ
 
 ![Contracts view](img/contracts.png)
 
-Here you can see details of all contracts deployed to the network. Those contracts that comply with well defined interfaces are automatically tagged with a type in the `Label` column to reflect this. For example, `ERC20` for fungible token contracts, `ERC721` for non-fungible token contracts, and Custom for those that have not been registered in the contract registry.
+Contracts that comply with well-defined interfaces are immediately tagged with a type in the `Label` column to reflect this. For example, `ERC20` for fungible token contracts, `ERC721` for non-fungible token contracts, and Custom for those  not registered in the contract registry.
 
 The `Name` column provides the contract name if the contract is registered in the Epirus contract registry. To learn more about the contract registry, head [here](metadata.md).
 
-When you click on a contract, you are taken into the contract details page which has various information about the contract.
+Clicking on a contract takes you to the contract details page. This is where you can find various information about the contract.
 
-Here you can see details of all transactions associated with the contract and events emmitted by these transactions. If the contract is registered in the registry, events and their parameter names and values will be decoded.
+Here you can see details of all transactions associated with the contract and events emitted by these transactions. Contracts registered in the registry will have their events, parameter names and values decoded.
 
 ![Contract details view](img/contract_details.png)
 
@@ -33,11 +33,11 @@ Private transactions are labelled with a `Private` label. They will only be deci
 
 ![Transactions view](img/transactions.png)
 
-The Transactions view provides the details of individual transactions, including private transactions when supported by your blockchain.
+The Transactions view provides details of individual transactions. This includes private transactions when supported by your blockchain.
 
 ![Transaction details](img/transaction_details.png)
 
-When you vieiw a transaction details you will be able to view lower-level details, such as the input byte code, which is available under the `Additional Details` menu.
+When you vieiw a transaction's details you will be able to view lower-level details, such as the input byte code, which is available under the `Additional Details` menu.
 
 ![Input bytecode](img/input_bytecode.png)
 
@@ -51,7 +51,7 @@ The blocks view provides details of all blocks being generated on the network. A
 
 ## Accounts
 
-Clicking on an address that is not associated with a smart contract, i.e. it holds Ether, will bring up the account view, which displays the current balance and transactions associated with the account.
+If you click on an address that is not associated with a smart contract, i.e. it holds Ether, it will bring up the account view. Here you will find the current balance and transactions associated with the account.
 
 ![Account details](img/account_details.png)
 
@@ -66,7 +66,7 @@ The search box in the top-right corner of the screen allows you to search by var
 
 ![Search box](img/search.png)
 
-If a match is found the associated contract, account, transaction or block details will be displayed.
+If a match is found, the associated contract, account, transaction or block details will be displayed.
 
 ## Advanced sorting and filters
 
